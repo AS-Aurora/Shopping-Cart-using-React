@@ -5,9 +5,9 @@ import Producttile from './components/Producttile';
 function Productlist() {
 
   const {listofProducts, loading} = useContext(ShoppingCartContext)
-  console.log(listofProducts);
+  // console.log(listofProducts);
   
-  if(!loading) return <h1>Loading...</h1>
+  if(!loading) return ( <h1>Loading...</h1>)
 
   return (
     <section className='py-12 bg-white sm:py-16 lg:py-20'>
